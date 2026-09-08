@@ -1,0 +1,10 @@
+title: "Ricardo Freguglia"
+email: ""
+description: "PhD in Economic Theory from USP with a doctoral stay at the University of Illinois. Researcher in Labor Economics, Education, and Inequality, focusing on public policy evaluation."
+baseurl: ""
+url: "https://ricfreg.github.io"
+theme: minima
+
+# Build settings
+plugins:
+  - jekyll-feed
