@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: page
 title: Ricardo Freguglia
+permalink: /
 ---
 
 PhD in Economic Theory from USP with a doctoral stay at the University of Illinois. Full Professor of Economics at UFJF and former Vice President of the Brazilian Econometric Society (SBE).
