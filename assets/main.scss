@@ -1,15 +1,7 @@
 ---
 ---
 
-/* Custom overrides for the Minima theme
-   Hides the duplicated site title in the header while keeping page titles visible. */
-
-.site-header .site-title {
-  display: none;
-}
-
-/* Optional: slightly reduce header vertical padding to improve spacing */
-.site-header {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
+/* No custom CSS overrides — restoring Minima default appearance.
+   Previously we hid the site header title; that change is reverted so the
+   theme header and navigation look like before while keeping the new
+   site structure and content. */
