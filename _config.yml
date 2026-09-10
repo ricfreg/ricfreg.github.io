@@ -3,7 +3,7 @@ email: "ricardo.freguglia@ufjf.br"
 description: "PhD in Economic Theory from USP with a doctoral stay at the University of Illinois. Researcher in Labor Economics, Education, and Inequality, focusing on public policy evaluation."
 baseurl: ""
 url: "https://ricfreg.github.io"
-theme: minima
+theme: jekyll-theme-modernist
 
 # Build settings
 plugins:
