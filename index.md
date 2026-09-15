@@ -1,25 +1,60 @@
 ---
-layout: page
-title: Ricardo Freguglia
+layout: splash
+title: "Ricardo Freguglia"
 permalink: /
+author_profile: true
 ---
 
-PhD in Economics from USP with a doctoral stay at the University of Illinois. Full Professor of Economics at UFJF and former Vice President of the Brazilian Econometric Society (SBE).
+## About
 
-A researcher in Labor Economics, Education, and Inequality, focusing on public policy evaluation.
+PhD in Economics from the University of São Paulo (USP) with a doctoral stay at the University of Illinois. Full Professor of Economics at Universidade Federal de Juiz de Fora (UFJF) and former Vice President of the Brazilian Econometric Society (SBE).
 
+Researcher in Labor Economics, Education, and Inequality, with a focus on public policy evaluation using econometric methods and causal inference techniques.
 
-Navigation
+---
 
-- [Curriculum Vitae](/cv/)
-- [Publications](/publications/)
-- [Research](/research/)
-- [Contact](/contact/)
+## Quick Links
 
-## Contact
+<div class="feature__wrapper">
 
-- GitHub: https://github.com/ricfreg
-- LinkedIn: https://www.linkedin.com/in/ricardo-freguglia-4399a482
-- Email: [ricardo.freguglia@ufjf.br](mailto:ricardo.freguglia@ufjf.br)
+<div class="feature__item">
+  <div class="archive__item-teaser">
+    <i class="fas fa-book-open" style="font-size: 3em; color: #5e6268;"></i>
+  </div>
+  <div class="archive__item-body">
+    <h2 class="archive__item-title"><a href="/publications/">Publications</a></h2>
+    <div class="archive__item-excerpt">Academic publications, working papers, and research outputs.</div>
+  </div>
+</div>
 
-<!-- Edit this file to update the content of your site. -->
+<div class="feature__item">
+  <div class="archive__item-teaser">
+    <i class="fas fa-flask-vial" style="font-size: 3em; color: #5e6268;"></i>
+  </div>
+  <div class="archive__item-body">
+    <h2 class="archive__item-title"><a href="/research/">Research</a></h2>
+    <div class="archive__item-excerpt">Research interests, projects, and areas of focus.</div>
+  </div>
+</div>
+
+<div class="feature__item">
+  <div class="archive__item-teaser">
+    <i class="fas fa-file-pdf" style="font-size: 3em; color: #5e6268;"></i>
+  </div>
+  <div class="archive__item-body">
+    <h2 class="archive__item-title"><a href="/cv/">Curriculum Vitae</a></h2>
+    <div class="archive__item-excerpt">Complete academic and professional background.</div>
+  </div>
+</div>
+
+<div class="feature__item">
+  <div class="archive__item-teaser">
+    <i class="fas fa-envelope" style="font-size: 3em; color: #5e6268;"></i>
+  </div>
+  <div class="archive__item-body">
+    <h2 class="archive__item-title"><a href="/contact/">Contact</a></h2>
+    <div class="archive__item-excerpt">Get in touch for collaborations, inquiries, or opportunities.</div>
+  </div>
+</div>
+
+</div>
