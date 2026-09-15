@@ -1,17 +1,31 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-This page is reserved for your Curriculum Vitae.
+## Education
 
-Suggestions:
+- Ph.D. in Economics — Institution  
+- M.A. in Economics — Institution  
+- B.A. in Economics — Federal University of Juiz de Fora (UFJF)  
 
-- To provide a downloadable PDF of your CV, add the file to `assets/cv/` (for example: `assets/cv/Ricardo_Freguglia_CV.pdf`) and add a download link below.
+## Professional experience
 
-Example download link (replace with the actual filename):
+- Professor — Federal University of Juiz de Fora  
+- Researcher in labor economics and economics of education  
+- Consultant in public policy and data analysis  
 
-[Download my CV](/assets/cv/Ricardo_Freguglia_CV.pdf){: .download}
+## Areas of expertise
 
-If you prefer, paste your CV in Markdown here or send me the PDF and I will upload it to the repository and update the link.
+- Labor Economics  
+- Economics of Education  
+- Quantitative Methods  
+- Public Policy  
+
+## Links
+
+- [Currículo Lattes](https://lattes.cnpq.br/SEU_ID_AQUI)
+- [Google Scholar](https://scholar.google.com/citations?user=SEU_ID_AQUI)
+- [ORCID](https://orcid.org/SEU_ID_AQUI)
+
