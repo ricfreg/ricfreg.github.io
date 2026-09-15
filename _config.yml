@@ -1,17 +1,15 @@
 # Site settings
 title: "Ricardo Freguglia"
 email: "ricardo.freguglia@ufjf.br"
-description: "Professor de Economia — Universidade Federal de Juiz de Fora (UFJF)"
+description: "Full Professor — School of Economics, Federal University of Juiz de Fora (UFJF)"
 baseurl: ""
 url: "https://ricfreg.github.io"
 
 # Social links
 github_username: ricfreg
-linkedin_username: ""
-twitter_username: ""
-scholar_userid: ""
-orcid: ""
-lattes: "https://lattes.cnpq.br/SEU_ID_AQUI"
+linkedin_username: "linkedin.com/in/ricardo-freguglia-4399a482"
+orcid: "https://orcid.org/0000-0002-1355-2272"
+lattes: "http://lattes.cnpq.br/1290479848909932"
 
 # Build settings
 markdown: kramdown
@@ -58,7 +56,7 @@ footer:
   links:
     - label: "GitHub"
       url: "https://github.com/ricfreg"
-    - label: "Lattes"
-      url: "https://lattes.cnpq.br/SEU_ID_AQUI"
+    - label: "CV Lattes"
+      url: "http://lattes.cnpq.br/1290479848909932"
     - label: "UFJF"
       url: "https://www.ufjf.br"
