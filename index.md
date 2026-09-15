@@ -1,60 +1,31 @@
 ---
-layout: splash
+layout: home
 title: "Ricardo Freguglia"
-permalink: /
-author_profile: true
 ---
 
-## About
+<img src="images/profile.jpg" alt="Ricardo Freguglia" width="200"/>
 
-PhD in Economics from the University of São Paulo (USP) with a doctoral stay at the University of Illinois. Full Professor of Economics at Universidade Federal de Juiz de Fora (UFJF) and former Vice President of the Brazilian Econometric Society (SBE).
+## About me
 
-Researcher in Labor Economics, Education, and Inequality, with a focus on public policy evaluation using econometric methods and causal inference techniques.
+I am a professor in the Department of Economics at the Federal University of Juiz de Fora (UFJF). My research focuses on labor economics, economics of education, and quantitative methods applied to public policy.
 
----
+I currently develop projects related to academic skills, wage returns, inequality, and occupational trajectories in the Brazilian labor market.
 
-## Quick Links
+## Research interests
 
-<div class="feature__wrapper">
+- Labor Economics  
+- Economics of Education  
+- Quantitative Methods  
+- Public Policy  
+- Impact Evaluation  
 
-<div class="feature__item">
-  <div class="archive__item-teaser">
-    <i class="fas fa-book-open" style="font-size: 3em; color: #5e6268;"></i>
-  </div>
-  <div class="archive__item-body">
-    <h2 class="archive__item-title"><a href="/publications/">Publications</a></h2>
-    <div class="archive__item-excerpt">Academic publications, working papers, and research outputs.</div>
-  </div>
-</div>
+## Links
 
-<div class="feature__item">
-  <div class="archive__item-teaser">
-    <i class="fas fa-flask-vial" style="font-size: 3em; color: #5e6268;"></i>
-  </div>
-  <div class="archive__item-body">
-    <h2 class="archive__item-title"><a href="/research/">Research</a></h2>
-    <div class="archive__item-excerpt">Research interests, projects, and areas of focus.</div>
-  </div>
-</div>
+- [Currículo Lattes](https://lattes.cnpq.br/SEU_ID_AQUI)
+- [Google Scholar](https://scholar.google.com/citations?user=SEU_ID_AQUI)
+- [ORCID](https://orcid.org/SEU_ID_AQUI)
+- [GitHub](https://github.com/ricfreg)
 
-<div class="feature__item">
-  <div class="archive__item-teaser">
-    <i class="fas fa-file-pdf" style="font-size: 3em; color: #5e6268;"></i>
-  </div>
-  <div class="archive__item-body">
-    <h2 class="archive__item-title"><a href="/cv/">Curriculum Vitae</a></h2>
-    <div class="archive__item-excerpt">Complete academic and professional background.</div>
-  </div>
-</div>
+## Recent updates
 
-<div class="feature__item">
-  <div class="archive__item-teaser">
-    <i class="fas fa-envelope" style="font-size: 3em; color: #5e6268;"></i>
-  </div>
-  <div class="archive__item-body">
-    <h2 class="archive__item-title"><a href="/contact/">Contact</a></h2>
-    <div class="archive__item-excerpt">Get in touch for collaborations, inquiries, or opportunities.</div>
-  </div>
-</div>
-
-</div>
+See my recent publications in [Publications](ca://s?q=Open_publications_page) or my ongoing work in [Projects](ca://s?q=Open_projects_page).
