@@ -1,51 +1,196 @@
-title: "Ricardo Freguglia"
-email: "ricardo.freguglia@ufjf.br"
-description: "PhD in Economics from USP | Full Professor at UFJF | Research in Labor Economics, Education & Inequality"
-baseurl: ""
-url: "https://ricfreg.github.io"
-repository: "ricfreg/ricfreg.github.io"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Theme settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate
+# Basic Site Settings
+locale                   : "en-US"
+title                    : "Ricardo Freguglia"
+title_separator          : "-"
+name                     : &name "Ricardo Freguglia"
+description              : &description "PhD in Economics | Labor & Education Economist"
+url                      : https://ricfreg.github.io
+baseurl                  : ""
+repository               : "ricfreg/ricfreg.github.io"
 
-# Minimal Mistakes settings
-minimal_mistakes_skin: "default"
-locale: "en-US"
-timezone: "America/Chicago"
-
-# Social links
+# Site Author
 author:
-  name: "Ricardo Freguglia"
-  avatar: "/assets/images/profile.jpg"
-  bio: "PhD in Economics (USP) | Labor & Education Economist | UFJF"
-  location: "Juiz de Fora, Brazil"
-  email: "ricardo.freguglia@ufjf.br"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ricfreg"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ricardo-freguglia-4399a482"
-    - label: "UFJF"
-      icon: "fas fa-fw fa-university"
-      url: "https://www.ufjf.br"
+  # Biographic information
+  avatar           : "profile.jpg"
+  name             : "Ricardo Freguglia"
+  pronouns         : 
+  bio              : "PhD in Economics (USP) | Full Professor at UFJF | Labor & Education Economist"
+  location         : "Juiz de Fora, Brazil"
+  employer         : "Universidade Federal de Juiz de Fora"
+  uri              : 
+  email            : "ricardo.freguglia@ufjf.br"
+  
+  # Academic websites
+  arxiv            : 
+  googlescholar    : 
+  orcid            : 
+  researchgate     : 
+  
+  # Repositories and software development
+  github           : "ricfreg"
+  kaggle           : 
+  stackoverflow    : 
+  
+  # Social media
+  linkedin         : "ricardo-freguglia-4399a482"
+  twitter          : 
+  instagram        : 
+  youtube          : 
 
-# Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ricfreg"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ricardo-freguglia-4399a482"
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               :
+  disqus:
+    shortname            :
+atom_feed:
+  hide                   : true
+  path                   :
 
-# Build settings
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+
+# Analytics
+analytics:
+  provider               :
+  google:
+    tracking_id          :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page:num/"
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/Los_Angeles
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
