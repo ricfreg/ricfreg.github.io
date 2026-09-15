@@ -1,10 +1,51 @@
 title: "Ricardo Freguglia"
 email: "ricardo.freguglia@ufjf.br"
-description: "PhD in Economic Theory from USP with a doctoral stay at the University of Illinois. Researcher in Labor Economics, Education, and Inequality, focusing on public policy evaluation."
+description: "PhD in Economics from USP | Full Professor at UFJF | Research in Labor Economics, Education & Inequality"
 baseurl: ""
 url: "https://ricfreg.github.io"
-theme: jekyll-theme-modernist
+repository: "ricfreg/ricfreg.github.io"
 
-# Build settings
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: "default"
+locale: "en-US"
+timezone: "America/Chicago"
+
+# Social links
+author:
+  name: "Ricardo Freguglia"
+  avatar: "/assets/images/profile.jpg"
+  bio: "PhD in Economics (USP) | Labor & Education Economist | UFJF"
+  location: "Juiz de Fora, Brazil"
+  email: "ricardo.freguglia@ufjf.br"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ricfreg"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ricardo-freguglia-4399a482"
+    - label: "UFJF"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.ufjf.br"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ricfreg"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ricardo-freguglia-4399a482"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/blog/page:num/"
