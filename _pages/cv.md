@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Curriculum Vitae"
-permalink: /cv/
+permalink: /cv/ http://lattes.cnpq.br/1290479848909932
 author_profile: true
 ---
 
