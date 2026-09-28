@@ -25,7 +25,7 @@ permalink: /cv/
 
 ## Links
 
-- [Currículo Lattes](https://lattes.cnpq.br/SEU_ID_AQUI)
+- [Currículo Lattes](http://lattes.cnpq.br/1290479848909932)
 - [Google Scholar](https://scholar.google.com/citations?user=SEU_ID_AQUI&user=bofwE1oAAAAJ)
 - [ORCID](https://orcid.org/0000-0002-1355-2272)
 
